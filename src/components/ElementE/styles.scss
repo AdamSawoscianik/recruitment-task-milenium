@@ -1,0 +1,18 @@
+@import 'styles/vars.scss';
+
+.element-e {
+  width: 100px;
+  height: 100px;
+  background: $yellow;
+
+  &:hover {
+    cursor: pointer;
+    animation: moveBox 15s ease infinite;
+  }
+}
+
+@keyframes moveBox {
+  to {
+    transform: translateX(calc(100vw - 600px));
+  }
+}

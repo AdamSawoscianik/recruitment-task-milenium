@@ -1,0 +1,16 @@
+@import 'styles/vars.scss';
+
+.element-d {
+  position: sticky;
+  bottom: 0;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  &__content {
+    background: $green;
+    width: $mainWidth;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
